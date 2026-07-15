@@ -1,0 +1,10 @@
+2026-07-15T10:03:33+0000 | INFO | === Job started ===
+2026-07-15T10:03:33+0000 | INFO | Args: input=data.csv, config=config.yaml, output=metrics.json, log_file=run.log
+2026-07-15T10:03:33+0000 | INFO | Config loaded and validated: seed=42, window=5, version=v1
+2026-07-15T10:03:33+0000 | INFO | Random seed set to 42
+2026-07-15T10:03:33+0000 | INFO | Rows loaded: 10000
+2026-07-15T10:03:33+0000 | INFO | Computing rolling mean on 'close' with window=5
+2026-07-15T10:03:33+0000 | INFO | Generating binary signal: 1 if close > rolling_mean else 0
+2026-07-15T10:03:33+0000 | INFO | Metrics summary: rows_processed=10000, signal_rate=0.4989, latency_ms=18
+2026-07-15T10:03:33+0000 | INFO | Metrics written to metrics.json
+2026-07-15T10:03:33+0000 | INFO | === Job ended: status=success ===
