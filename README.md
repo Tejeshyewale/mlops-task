@@ -138,4 +138,4 @@ still writes a valid `metrics.json` with `"status": "error"`.
 Given the same `data.csv` + `config.yaml`, `rows_processed`, `signal_rate`,
 and `seed` are identical across runs (only `latency_ms` varies, since it
 measures wall-clock time). NumPy's RNG is seeded from `config.seed` for any
-future stochastic steps.
+future stochastic steps. !!
